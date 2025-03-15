@@ -1,0 +1,49 @@
+.navbar {
+  /* background-color: #4172a3; */
+  border-bottom: 1px solid #e9ecef;
+  height: 90px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  box-shadow: #e9ecef 0px 2px 4px;
+}
+
+img {
+  float: left;
+  padding-top: 5px;
+}
+.v{
+    padding-top:26px ;
+    margin-top: 0px;
+    margin-right: 6px;
+}
+
+.profile {
+  margin-left: auto;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+
+
+.profile-info1 {
+  padding-top: 11px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  padding-left: 60px;
+}
+.profile-info2 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-left: 60px;
+}
+
+.icons1{
+    padding-top: 30px;
+    padding-left: 1500px;
+}
+
+.overview{
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-top: 0px;
+}
