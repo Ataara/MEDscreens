@@ -1,21 +1,67 @@
 .navbar {
   /* background-color: #4172a3; */
   border-bottom: 1px solid #e9ecef;
-  height: 90px;
+  height: 80px;
   padding: 0;
   margin: 0;
   display: flex;
   box-shadow: #e9ecef 0px 2px 4px;
 }
 
+.see {
+  margin-left: 80px;
+}
+/* NOTE That fp stands for 5 percent (+5%) */
+.below {
+  color: rgba(0, 0, 0, 0.6);
+}
+.below1 {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 30px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.below2 {
+  color: rgba(0, 0, 0, 0.6);
+  padding-right: 180px;
+}
+
+.below4 {
+  padding-left: 30px;
+  margin-top: 4px;
+}
+
+.CXLVIII {
+  color: #48bb78;
+}
+.good {
+  color: #1c76fd;
+}
+.CIV {
+  color: #9747ff;
+}
+.arrow {
+  padding-top: 16px;
+}
+
+em {
+  font-style: normal;
+  color: #48bb78;
+}
+
+.hr {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 160px;
+}
+
 img {
   float: left;
   padding-top: 5px;
 }
-.v{
-    padding-top:26px ;
-    margin-top: 0px;
-    margin-right: 6px;
+.v {
+  padding-top: 26px;
+  margin-top: 0px;
+  margin-right: 6px;
 }
 
 .profile {
@@ -24,6 +70,11 @@ img {
   margin-top: 10px;
 }
 
+.profile2 {
+  margin-left: auto;
+  margin-right: 30px;
+  margin-top: 10px;
+}
 
 .profile-info1 {
   padding-top: 11px;
@@ -36,14 +87,190 @@ img {
   margin-bottom: 3px;
   padding-left: 60px;
 }
-
-.icons1{
-    padding-top: 30px;
-    padding-left: 1500px;
+.profile-info3 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-left: 10px;
+  padding-top: 6px;
 }
 
-.overview{
-    padding-top: 30px;
-    padding-left: 20px;
-    margin-top: 0px;
+.icons1 {
+  padding-top: 30px;
+  padding-left: 1500px;
+}
+
+.overview {
+  padding-top: 30px;
+  padding-left: 20px;
+  margin-top: 0px;
+}
+
+/* Defining styles for grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Make the first column twice as wide as the second */
+  gap: 10px; /* Optional: Adds space between the columns */
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-item1 {
+  padding: 20px; /* Optional: Padding inside the grid item */
+}
+
+.grid-item2 {
+  padding: 20px; /* Optional: Padding inside the grid item */
+  text-align: center; /* Optional: Center-align text inside the grid item */
+}
+
+.incard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cardComponent {
+  display: inline-block;
+  align-content: center;
+}
+
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+}
+
+.card__body {
+  padding: 1rem 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: end; /* Center the button horizontally */
+  align-items: center; /* Center the button vertically */
+}
+
+.button-container2 {
+  display: inline-block;
+  margin-right: 0px;
+}
+.button-container3 {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.dropdown-button {
+  background-color: #f9f9f9; /* Light background color */
+  border: 1px solid #e0e0e0; /* Light border color */
+  border-radius: 12px; /* Rounded corners */
+  padding: 5px 20px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  color: #666666; /* Text color */
+  display: flex;
+  align-items: center; /* Center the text and icon vertically */
+  cursor: pointer; /* Pointer cursor on hover */
+  outline: none; /* Remove outline */
+}
+
+.dropdown-button {
+  margin-left: 10px; /* Space between text and icon */
+}
+
+.dropdown-button:hover {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+
+.vector2 {
+  padding-left: 36px;
+  margin-top: 100px;
+}
+
+.y-axis {
+  margin-left: 20px;
+}
+
+.x-axis {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+.vector1 {
+  position: absolute;
+  padding-top: 106px;
+  padding-left: 35px;
+}
+
+.vector3 {
+  position: absolute;
+  padding-top: 97px;
+  padding-left: 185px;
+}
+
+.distance {
+  position: absolute;
+  padding-left: 300px;
+  padding-top: 80px;
+}
+/*Second grid  */
+.iv {
+  color: red;
+}
+
+.GHC{
+  padding-left: 80px;
+}
+
+.i{
+  border: 1px solid gray;
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-left: 7px;
+}
+
+.waiting{
+  color: #1c76fd;
+  border: 1px solid #fbfbfbb2;
+  background-color: #fbfbfbb2;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.waiting2{
+  color: #1c76fd;
+  border: 1px solid #fbfbfbb2;
+  background-color: #fbfbfbb2;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-left: 120px;
+}
+.waiting1{
+  color:rgb(209, 209, 63);
+  border: 1px solid #fbfbfbb2;
+  background-color: #fbfbfbb2;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-left: 120px;
+
+}
+
+.btn-all{
+  padding: 3px 60px;
+  border: 1px solid gray;
+  display: flex;
+  justify-self: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.cardComponent-vector{
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+.ico{
+  margin-left: 5px;
+  margin-top: 2px;
 }
